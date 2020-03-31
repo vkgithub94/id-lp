@@ -1,0 +1,141 @@
+.gob-img{
+    height: 350px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.dmf-plateform{
+    color: #111111;
+    font-family: 'Encode Sans';
+    font-size:28px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    text-align: left;
+    align-self: left;
+}
+ul li{
+    color: #111111;
+    font-family: 'Encode Sans';
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.invoice-raised{
+    width: 78%;
+}
+
+@media (max-width: 440px ){
+    .invoice-raised {
+        width: 100% !important;
+	  }
+	  
+	  #email, #phoneNo{
+		width: 100% !important;
+	  }
+}
+
+
+
+
+input {
+	border: 2px solid;
+	}
+label{
+	font-family: 'Encode Sans';
+	font-size: 18px;
+}
+
+.input-fields:focus{
+	outline: none;
+}
+#email, #phoneNo {
+	height: 38px;
+	width: 90% !important;
+	color: #222222;
+	font-family: "Encode Sans";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	border-radius: 4px;
+}
+
+.btn-default {
+	height: 48px;
+	width: 150px !important;
+	border-radius: 1px;
+	font-family: "Encode Sans";
+	color: black !important;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 25px;
+	text-align: center;
+	border: 2px solid;
+	box-shadow: 8px 8px 0px 0 #666666;
+}
+
+.btn-default:hover{
+	background-color: #24D682 !important;
+	color: #ffffff !important;
+	border: 2px solid !important;
+}
+
+.success-bar{
+	padding-top: 50px;
+}
+
+.thanks-for-your-inte {
+	color: #333333;
+	font-family: "Encode Sans";
+	text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 23px;
+}
+
+.invest-now-text, .how-it-works {
+	color: #444444;
+	font-family: "Encode Sans";
+	font-size: 38px;
+	letter-spacing: 1px;
+	line-height: 125%;
+	text-align: center;
+	text-decoration: none !important;
+}
+
+.invoice-discounting-text {
+	width: 75%;
+    color: #444444;
+    font-family: 'Encode Sans';
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.line {
+	box-sizing: border-box;
+	height: 1px;
+	width: 75%;
+	border: 1px solid rgba(0,0,0,0.2);
+	
+}
+.how-it-works:hover{
+	color: #24D682 !important;
+	
+}
+
+    .asset-class-text{
+		margin-bottom: 1rem;
+		padding:  1rem;
+		color: #000000;
+		width: 75%;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    background-color: #DDDDDD;
+    box-shadow: none;
+	}
