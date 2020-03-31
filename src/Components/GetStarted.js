@@ -46,7 +46,7 @@ class GetStarted extends Component {
     render(){
     return (
         <div className="pt-5 container-fluid">
-        <div className='d-flex row flex-direction-row'>
+        <div className='d-lg-flex container-main row'>
             
             <div className="row col-lg-6 col-md-12 pt-5 mt-5">
                 <img className="mx-auto gob-img mt-5 pl-4" src={Glob} alt="img" />
@@ -91,7 +91,8 @@ class GetStarted extends Component {
                                                     
                     </form>
             </div>
-            <div className='d-flex row flex-direction-row mt-5' style={{backgroundColor:'rgb(247, 248, 250)'}}>
+        </div>
+              <div className='d-flex row flex-direction-row mt-5' style={{backgroundColor:'rgb(247, 248, 250)'}}>
                 <div className=" mx-auto d-flex justify-content-center align-items-center row p-4 col-md-12">
                     <p className="invest-now-text"><strong> Invest Now & get upto 12% p.a.*</strong></p>
                     <p className="invoice-discounting-text pt-3">Invoice Discounting provides a unique opportunity of discounting invoices raised on big players in the consumer space. The vendors have to wait for 30-90 days to receive the money from the companies, so you can provide liquidity to vendors and earn an attractive yield.</p>
@@ -125,7 +126,7 @@ class GetStarted extends Component {
                     We have a zero delinquency record till date.</p>
                     </div>
                   </div>
-
+                  <p className="t-and-c">* Terms and conditions apply</p>
                 </div>
               </div>
 
@@ -136,7 +137,7 @@ class GetStarted extends Component {
                 <img src={success_checked} style={{width:'35px'}}/>&nbsp; &nbsp;Thank you for your interest. We will contact you soon.
                 </ModalBody>
               </Modal>
-           </div>   
+              
         </div>
     );
  }

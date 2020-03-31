@@ -2,7 +2,7 @@
   "name": "pms-lp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://vkgithub94.github.io/id",
+  "homepage": "http://vkgithub94.github.io/id-lp",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-regular": "^5.0.13",
@@ -58,5 +58,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
