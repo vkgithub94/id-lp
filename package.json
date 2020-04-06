@@ -1,8 +1,7 @@
 {
-  "name": "pms-lp",
+  "name": "id-lp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://vkgithub94.github.io/id-lp",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-regular": "^5.0.13",

@@ -40,6 +40,9 @@ class GetStarted extends Component {
                 phoneNo:''
               })
           }
+          if(typeof(window.fbq) === "function") {
+            window.fbq('track', 'ContactUs');
+            }
       });
     };   
    
@@ -49,7 +52,7 @@ class GetStarted extends Component {
         <div className='d-lg-flex container-main row'>
             
             <div className="row col-lg-6 col-md-12 pt-5 mt-5">
-                <img className="mx-auto gob-img mt-5 pl-4" src={Glob} alt="img" />
+                <img className="mx-auto gob-img mt-5 p-1" src={Glob} alt="img" />
             </div>
             <div className="mx-auto d-flex flex-column pl-5 col-md-12 col-lg-6">
                 <a href="https://www.orowealth.com/"><img style={{height:'60px'}} src={OroLogo} alt="Oro-logo" /></a>
